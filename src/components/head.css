@@ -1,0 +1,28 @@
+.head{
+    background-image: url('../assets/images/bg-image.png');
+    height: 780px;
+    width: 100%;
+    background-size: cover;
+    transform: translateY(-75px);
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head__content{
+    width: 730px;
+    height: 349px;
+    background: rgba(247, 248, 250, 0.8);
+    backdrop-filter: blur(12px);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.head__desc{
+    width: 537px;
+    text-align: center;
+    margin-bottom: 45px;
+}

@@ -1,0 +1,8 @@
+export {default as Card} from './Card'
+export {default as Cards} from './Cards'
+export {default as Popular} from './Popular'
+export {default as Testmonials} from './Testmonials'
+export {default as Navbar} from './Navbar'
+export {default as Footer} from './footer/Footer'
+export {default as Head} from './Head'
+export {default as Clean} from './Clean'

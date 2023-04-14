@@ -1,0 +1,15 @@
+.testmonials{
+    height: 601px;
+    background: rgba(86, 178, 128, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+.coms{
+    gap: 31px;
+    margin-top: 31px;
+}
+.test__title{
+    justify-content: center;
+}

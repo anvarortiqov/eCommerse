@@ -1,0 +1,27 @@
+.btn{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 44px;
+    gap: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: none;
+    font-weight: 500;
+    font-size: 20.6452px;
+    line-height: 24px;
+}
+.active{
+    background: #56B280;
+    color: #FFFFFF;
+}
+.outline{
+    background: #FFFFFF;
+    border: 1px solid #56B280;
+    border-radius: 4px;
+    color: #56B280;
+}
+.gray{
+    background: #D6D6D6;
+    color: #272727;
+}
