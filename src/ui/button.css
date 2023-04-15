@@ -10,6 +10,7 @@
     font-weight: 500;
     font-size: 20.6452px;
     line-height: 24px;
+    border: 1px solid;
 }
 .active{
     background: #56B280;
@@ -24,4 +25,10 @@
 .gray{
     background: #D6D6D6;
     color: #272727;
+}
+.active:hover{
+    background: #FFFFFF;
+    border-color: #56B280;
+    color: #56B280;
+    box-sizing: border-box;
 }

@@ -1,0 +1,46 @@
+.shop{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 721px;
+}
+.page-name{
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 58px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.9px;
+    color: #272727;
+}
+.shop-header{
+    text-align: center;
+}
+.shop-header a{
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: -0.9px;
+    text-decoration-line: underline;
+    text-decoration: none;
+    color: #56B280;
+}
+.table{
+    text-align: left;
+    border-bottom: 1px solid #E5E5E5;
+}
+.shops-head{
+   color: #E5E5E5;
+   height: 1px;
+}
+.subtotal{
+    align-self: flex-end;
+}
+.table tr{
+    margin: 20px 0;
+}
+.table thead tr{
+    border: 1px solid #E5E5E5;
+}

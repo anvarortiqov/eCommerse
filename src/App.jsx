@@ -8,6 +8,8 @@ import './App.css'
 import Footer from './components/footer/Footer';
 import Product from './pages/Product';
 import { Cards } from './components';
+import Shop from './pages/Shop';
+import Notfound from './components/Notfound';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Route exact path='/' element={<Home/>} />
         <Route path='/product' element={<Cards/>} />
         <Route path='/product/:id' element={<Product/>} />
+        <Route path='/shop' element={<Shop/>} />
+        <Route path='*' element={<Notfound/>} />
      </Routes>
      <Footer/>
     </>

@@ -27,3 +27,6 @@
 .cards{
   flex-wrap: wrap;
 }
+ul li{
+  list-style-type: none;
+}

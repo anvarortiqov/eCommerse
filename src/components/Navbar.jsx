@@ -3,13 +3,14 @@ import logo from '../assets/images/logo.png'
 import {AiOutlineUser, AiOutlineShoppingCart} from 'react-icons/ai'
 import {IconContext} from 'react-icons'
 import './navbar.css'
+import { Link } from 'react-router-dom'
 function Navbar() {
   const {open, setOpen}=useState(true)  
   return (
     <nav className='nav'>
         <div className="container row">
             <div className="logo">
-                <a href="#" className='logo__link'><img src={logo} alt="logo" /></a>   
+                <Link to="/" className='logo__link'><img src={logo} alt="logo" /></Link>   
             </div>
             <ul>
                <li><a href="#" className='nav__link'>Discovery</a></li> 
@@ -18,9 +19,11 @@ function Navbar() {
             </ul>
             <div className="nav__bnts flex ">
                 <IconContext.Provider value={{size:'25px'}}>
-                    <AiOutlineUser/>
-                 
+                    <Link to="/shop">
+                        <AiOutlineUser/>
                         <AiOutlineShoppingCart/>   <sup>2</sup>  
+                    </Link>
+                     
     
                 </IconContext.Provider>
             </div>

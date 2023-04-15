@@ -1,8 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit'
-import todosReducer from '../features/todos/todosSlice'
-import filtersReducer from '../features/filters/filtersSlice'
+
+import cartSlice from '../reducer/cartSlice'
 
 export const store = configureStore({
   reducer: {
-  }
+    cart: cartSlice,
+  },
+  devTools:process.env.NODE_ENV !=="production"
 })
